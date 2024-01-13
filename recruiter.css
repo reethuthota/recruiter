@@ -37,7 +37,7 @@ input {
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+.signOut, input[type="submit"] {
     background-color: #3498db;
     color: #fff;
     padding: 10px 20px;
@@ -47,7 +47,11 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="submit"]:hover {
+.signOut {
+    margin-top: 30px;
+}
+
+.signOut:hover, input[type="submit"]:hover {
     background-color: #2980b9;
 }
 
